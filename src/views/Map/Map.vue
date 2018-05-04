@@ -24,8 +24,8 @@
         let _this = this;
         //加载百度地图插件
         let mapUrl = [
-          'https://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js',
-          "https://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"
+          '//api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js',
+          "//api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"
         ];
         BDMap(mapUrl).then(BMap => {
           var map = new BMap.Map("map");

@@ -12,7 +12,7 @@ export function BDMap(mapUrl) {
     // 异步加载百度地图api
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "https://api.map.baidu.com/api?v=2.0&ak=COEiMDYAgA78eyBgXq542N38Kb2xzx4K&callback=init";
+    script.src = "//api.map.baidu.com/api?v=2.0&ak=COEiMDYAgA78eyBgXq542N38Kb2xzx4K&callback=init";
     script.onerror = reject;
     document.head.appendChild(script);
   })
