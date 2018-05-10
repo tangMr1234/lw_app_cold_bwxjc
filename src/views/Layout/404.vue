@@ -18,7 +18,7 @@
       <tabbar-item link="/login" style="border-left: 1px solid #DCDCDC;border-right: 1px solid #DCDCDC;">
         <span slot="label">重新登录</span>
       </tabbar-item>
-      <tabbar-item link="/index">
+      <tabbar-item link="/">
         <span slot="label">返回首页</span>
       </tabbar-item>
     </tabbar>
